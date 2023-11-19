@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bok</title>
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <script src="./js/fontawesome-all.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body {
+            padding-top: 60px;
+        }
+
+        .img-map {
+            border: 1px solid #000;
+        }
+
+        /* @media (max-width:725px) and(orientation : portrait) */
+    </style>
+</head>
+
+<body>
+
+    <!-- start hedaer -->
+    <header>
+        <nav class="nav navbar navbar-expand-lg navbar-light bg-light border-bottom fixed-top">
+            <div class="container">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto">
+                        <img src="./img/logo.png" alt="" class="img-logo">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link ">خانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link active">ارتباط با ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link">خدمات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./Store.html" class="nav-link">فروشگاه</a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-info btn-sm dropdown-toggle" id="dropdownsinglogin"
+                            data-bs-toggle="dropdown">ورود/ثبت نام</button>
+                        <div class="dropdown-menu">
+                            <a href="./5-login/index.html" class="dropdown-item">ورود</a>
+                            <a href="./5-login/index.html" class="dropdown-item">ثبت نام</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+    <!-- end header -->
+
+    <div class="container my-3 my-sm-5">
+        <div class="row">
+            <div class="col-12 col-md-6 mb-3">
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">نام</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    <input type="text" id="name" class="form-control" name="name" placeholder="name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">ادرس پستی</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    <input type="email" id="email" class="form-control" name="email"
+                                        placeholder="example@email.com">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="mb-3">
+                                <label for="telephone" class="form-label">شماره تماس</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                    <input type="tel" id="telephone" class="form-control" name="telephone"
+                                        placeholder="012345678">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="mb-3">
+                                <label for="department" class="form-label">زمینه کاری:</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-home"></i></span>
+                                    <select name="department" id="department" class="form-select">
+                                        <option value="">- انتخاب کنید -</option>
+                                        <option value="business">کار</option>
+                                        <option value="support">پشتیبانی</option>
+                                    </select>
+                                </div>
+                                <small class="form-text">Please select the recipient of your message.</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">پیام خود را در این قسمت قرار دهید:</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                            <textarea name="message" id="message" cols="30" rows="5" class="form-control"
+                                placeholder="یاداشت کنید..."></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn bt-sl">ارسال</button>
+                </form>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h2>آدرس:</h2>
+                        <address>
+                            <strong>نام شرکت</strong>
+                            <br>
+                            نام خیابان
+                            <br>
+                            نام ساختمان
+                            <br>
+                            <i class="fas fa-fw fa-phone"></i> <a href="tel:+1234567889">12345567789</a><br>
+                            <i class="fas fa-fw fa-envelope"></i> <a href="mailto:info@domin.com">example@gamil.com</a>
+                        </address>
+                        <div class="col-12 col-md-6">
+                            <h2>ساعت کاری</h2>
+                            <p>
+                                شنبه تا پنج شنبه:
+                                <span class="float-end">07:00 - 18</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h2>موقعیت مکانی</h2>
+                <div>
+                    <img src="./img/new/download.png" class="img-map" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- start footer -->
+    <footer class="">
+        <div class="container py-3 py-sm-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>لینک صفحات سایت</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">خانه</a></li>
+                        <li><a href="contact.html">ارتباط با ما</a></li>
+                        <li><a href="services.html">خدمات</a></li>
+                        <li><a href="./Store.html">فروشگاه</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>کتاب‌های پیشنهادی</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="services.html">اثر مرکب</a></li>
+                        <li><a href="services.html">ملت عشق</a></li>
+                        <li><a href="services.html">کتاب شدن</a></li>
+                        <li><a href="services.html">اسکاول شین</a></li>
+                        <li><a href="services.html">مردی به نام اوه</a></li>
+                        <li><a href="services.html">نیمه تاریک وجود‌</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6> مارا دنبال کنید</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fab fa-fw fa-facebook"></i>facebool</a></li>
+                        <li><a href="#"><i class="fab fa-fw fa-instagram"></i>instagram</a></li>
+                        <li><a href="#"><i class="fab fa-fw fa-twitter"></i>twitter</a></li>
+                        <li><a href="#"><i class="fab fa-fw fa-youtube"></i>youtube</a></li>
+                        <li><a href="#"><i class="fab fa-fw fa-linkedin"></i>linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6> آدرس ما </h6>
+                    <address>
+                        <strong>نام شرکت</strong><br>
+                        نام خیابان<br>
+                        شماره های تماس<br>
+                        <i class="fas fa-fw fa-phone"></i><a href="tel:+123456789">01234567889</a><br>
+                        <i class="fas fa-fw fa-envelope"></i><a href="mailto:info@domin.com">exapmle@gmail.com</a><br>
+                    </address>
+                </div>
+            </div>
+            <ul class="list-inlne mt-2 mb-0 text-center">
+                <i class="list-inline-item">&copy; نام شرکت 2022</i>
+                <i class="list-inline-item"> تمام حقوق این سایت محفوظ است</i>
+            </ul>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

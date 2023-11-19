@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <script src="./js/fontawesome-all.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body {
+            padding-top: 60px;
+        }
+
+        .div-asli {
+            display: flex;
+            column-gap: 13px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            background-color: #dbdcdd;
+            margin-bottom: 50px;
+        }
+
+        .box-text {
+            width: 450px;
+            margin: 50px;
+        }
+
+        .bt-box {
+            /* background-color: #1f70bc; */
+            width: 250px;
+        }
+
+        .bt-sl {
+            background-color: #b5f4e0;
+        }
+
+        .bt-sl-t {
+            background-color: rgb(249, 218, 245);
+            transition: 0.9s;
+
+        }
+
+        .bt-sl-t:hover {
+            background-color: #fff;
+            /* transform: 0.9s; */
+            border-radius: 100px;
+        }
+
+        .pa {
+            border: 1px solid #000;
+            border-radius: 25px;
+            padding: 25px;
+            background-color: #e6e1e3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- start hedaer -->
+    <header class="">
+        <nav class="nav navbar navbar-expand-lg navbar-light bg-light border-bottom fixed-top">
+            <div class="container">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto">
+                        <img src="./img/logo.png" alt="" class="img-logo">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">خانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">ارتباط با ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link ">خدمات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./Store.html" class="nav-link">فروشگاه</a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-info btn-sm dropdown-toggle" id="dropdownsinglogin"
+                            data-bs-toggle="dropdown">ورود/ثبت نام</button>
+                        <div class="dropdown-menu">
+                            <a href="./5-login/index.html" class="dropdown-item">ورود</a>
+                            <a href="./5-login/index.html" class="dropdown-item">ثبت نام</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end hedaer -->
+
+    <!-- start body -->
+    <div class="container my-5 my-sm-5">
+
+
+        <div class="div-asli">
+            <div>
+                <img src="./img/11-111.png" alt="">
+            </div>
+            <div class="main box-text">
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                    چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+                    نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته
+                    حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                    رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+                    داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل
+                    حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
+                    گیرد.
+                </p>
+            </div>
+            <div class="bt-box na-bo">
+                <!-- <button class="bt-sl">اضافه کردن به سبد خرید</button> -->
+                <!-- <a href="" type="button">اضافه کردن به سبد خرید</a> -->
+                <input type="text" placeholder="وارد کردن کد تخفیف">
+                <button class="bt-sl-t">اعمال کد تخفیف</button>
+                <hr>
+                <a href="" class="btn bt-sl"> اضافه کردن به سبد خرید </a>
+                <br><br>
+                <div class="product__wrapper">
+                    <div class="product__offer">
+                        <span class="product__offer-percent">14%</span>
+                        <span class="product__offer-price">320,000</span>
+                    </div>
+                    <div class="product__price">
+                        <span class="product__price-number">275,000</span>
+                        <span class="product__price-unit">تومان</span>
+                    </div>
+                    <div class="product__rating">
+                        <span class="product__rating-number">4.5</span>
+                        <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="mb-sm-4">
+            <div class="row mb-4 align-items-center bo-cc">
+                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                    <img src="./img/11-111.png" class="img-fluid">
+                    <span>
+                        نویسنده : لارس ام. بلودورن
+                        مترجم : سعید گرامی ، عزیزالله سمیعی
+                        فیدی‌پلاس
+                    </span>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="">
+
+                        <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                            <input type="text" placeholder="وارد کردن کد تخفیف">
+                            <button>افمال کد تخفیف</button>
+                            <a href="#" class="btn bt-sl"> اضافه کردن به سبد خرید </a>
+                            <hr>
+                            <div class="product__wrapper">
+                                <div class="product__offer">
+                                    <span class="product__offer-percent">14%</span>
+                                    <span class="product__offer-price">320,000</span>
+                                </div>
+                                <div class="product__price">
+                                    <span class="product__price-number">275,000</span>
+                                    <span class="product__price-unit">تومان</span>
+                                </div>
+                                <div class="product__rating">
+                                    <span class="product__rating-number">4.5</span>
+                                    <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="pa">
+            <p>
+                کار بن و جودی بالا گرفت. ابتدا جذابیت‌ها قوی بود. از لحاظ فیزیکی برای هم جذاب به نظر می‌رسیدند و از لحاظ
+                جنسی هم با هم سازگار بودند. هر دو خصلت‌هایی داشتند که برای دیگری تحسین‌برانگیز بود. آن‌ها معتقد بودند که
+                هر یک می‌تواند کمک کند از طریق این رابطه به اهداف مورد نظرشان برسند. جودی همیشه در دسترس بود و می‌خواست
+                از هر لحاظ به بن کمک کند. جودی دوست داشت که بن از او چیزی بخواهد و از اینکه زندگی بن را راحت‌تر کند تا
+                استرسش کمتر شود و زمان بیشتری برای دیدن او پیدا کند، بسیار خوشحال می‌شد. جودی دوست داشت محل قرارشان را
+                انتخاب کند و همچنین بارها و میخانه‌های خوبی هم در شهر سراغ داشت. جودی بی‌خیال بود و به‌خوبی با هر چیزی
+                کنار می‌آمد، چیزی که باعث می‌شد بن احساس قدرت و اعتمادبه‌نفس کند. اگر بن نمی‌توانست به دلیلی با جودی
+                بیرون برود، جودی به‌ندرت عصبانی می‌شد. بن دوست داشت مجبور نباشد برای جودی توضیح دهد. بن به‌خوبی با جودی
+                رفتار می‌کرد و وقتی با هم بودند همیشه به جودی توجه داشت و این باعث می‌شد که جودی خوشحال و عاشق باشد. به
+                نظر خوب می‌رسد، نه؟ اکنون یک سال با حرکت سریع به جلو می‌رویم.
+                بن دو بار شغلش را تغییر داد، مثل همیشه برای اینکه کارمزد بالاتری دریافت کند و اغلب بدون مشورت با جودی
+                این کار را انجام داد. اگرچه درآمدش با مخارجش همخوانی نداشت، اما تکانی به خودش نمی‌داد و به خاطر
+                دلواپسی‌های جودی در مورد مسائل مالی آزرده‌خاطر می‌شد. او روابط اجتماعی‌اش را با مشتری‌ها افزایش داد و
+                اغلب شب‌ها مست می‌کرد تا استرسش کمتر شود و اعتمادبه‌نفسش افزایش یابد. به همین خاطر، اوقات کمتری را با
+                جودی سپری می‌کرد و جودی احساس می‌کرد طرد شده است. جودی روزبه‌روز آشفته‌تر می‌شد و چشمانش به خاطرغیبت‌های
+                مکرر بن همیشه نمناک بود و علی‌رغم میل باطنی‌اش همیشه احساس می‌کرد می‌خواهد به بن التماس کند که با او در
+                خانه بماند. این باعث می‌شد که بن عصبانی‌تر شود و بیشتر از او دور شود.
+            </p>
+            <p>
+                درباره‌ی کتاب مذاکرات به زبان انگلیسی اثر لارس ام. بلودورن
+                امروزه با بین المللی شدن مجامع، کار کردن با شرکای خارجی یکی از اتفاقات معمول است. در این میان بسیار
+                متحمل است که شما به یک جلسه‌ی خارجی دعوت شوید و یا مجبور شوید یک جلسه‌ی خارجی را برگزار کنید؛ برای
+                برگزاری این جلسات باید بتوانید به خوبی به علم مذاکرات در زبان انگلیسی آگاه باشید. این کتاب تمام نکاتی را
+                که باید درباره‌ی مذاکرات به زبان انگلیسی بدانید به شما می‌گوید.
+
+                کتاب مذاکرات به زبان انگلیسی نوشته‌ی لارس ام. بلودورن برای نخستین بار در سال 2011 منتشر شد. این کتاب با
+                سه هدف اصلی نوشته شده است.
+
+                هدف اول: مذاکره‌های موفق برچه پایه و اساسی استوارند
+                هدف دوم: چگونه با استفاده از عبارات مناسب مذاکرات را به سوی خود خاتمه دهید
+                هدف سوم: بهترین راه برای مطرح کردن پیشنهاد‌ها و طرح‌های جدید در مذاکرات چیست
+                مروری بر فصل‌های کتاب مذاکرات به زبان انگلیسی
+                کتاب مذاکرات به زبان انگبیسی در چهار بخش نوشته شده است.
+
+                بخش اول: آمادگی مناسب: به خوبی آماده شدن: در این بخش نویسنده مشهورترین و کاربردی‌ترین اصطلاحات پای میز
+                چانه‌زنی را به خواننده آموزش می‌دهد. اصطلاحتی را که باید نویسنده درباره مذاکره بداند و در هر مرحله از
+                مذاکره درباره‌ی آن بحث کند.
+
+                بخش دوم: موفقیت: مذاکرات کارآمد: در این بخش چگونگی شروع مذاکرات آموزش داده می‌شود. برای مثال نویسنده در
+                این بخش به خواننده آموزش می‌دهد که چگونه نظر خود را بدون برانگیختن طرف مقابل بیان کند و موضع‌گیری خود را
+                مشخص کند.
+
+                بخش سوم: رویارویی با دشواری‌ها: بخش سوم بخش راهنمای کتاب است. در این بخش عباراتی به خواننده اموزش داده
+                می‌شود که به کمک آن‌ها فرد مذاکره کننده بتواند دوباره در مسیر خود قرار بگیرد. نتیجه‌گیری نهایی و رسیدن
+                به نتیجه برد- برد هم در همین بخش آموزش داده می‌شود.
+
+                بخش چهارم: بخش ده‌تایی‌ها: در این بخش مطالبی آموزشی داده می‌شود که بر مبنای آن خواننده را در موضع پیروز
+                قرار بدهد. در این بخش جملاتی که گفتن آن‌ها در مذاکره ممنوع است، هم آورده شده است.
+
+                ترجمه‌ی کتاب مذاکرات به زبان انگلیسی به فارسی
+                انتشارات آوند دانش کتاب مذاکرات به زبان انگلیسی را با ترجمه‌ی سارا کاظمی‌منش عرضه کرده و در اختیار
+                علاقه‌مندان قرارداده است. سارا کاظمی منش مترجم جوان ایرانی است که در سال‌های اخیر با همکاری انتشارات
+                آوند دانش کتاب‌های زیادی را به فارسی برگردانده است. از جمله‌ی این کتاب‌ها می‌توان به مذاکرات به زبان
+                انگلیسی، داستان نویسی، داستان نویسی برای کودکان، نمایشنامه‌نویسی و ابر غذاها از مجموعه کتاب‌های For
+                Dummies اشاره کرد. این مجموعه یکی از طولانی‌ترین مجموعه‌ی کتاب‌های آموزشی است. مجموعه‌ی For Dummies شامل
+                حدود 2500 عنوان کتاب در موضوعات مختلف است. این مجموعه تاکنون بیش از 200 میلیون کتاب چاپ کرده است و به
+                ده‌ها زبان ترجمه شده است. ایده‌ی اولیه این مجموعه معرفی موضوعاتی تازه و ناآشنا به زبان ساده برای مردم
+                بود. اکنون این مجموعه یکی از مشهورترین مجموعه‌های آموزشی است و تقریبا درباره‌ی هر موضوعی یک کتاب دارد.
+
+                کتاب مذاکرات به زبان انگلیسی مناسب چه کسانی است؟
+                این کتاب لحنی آسان و قابل فهم دارد؛ به همین دلیل مناسب مدیران و سرپرستانی است که باید جلساتی را به زبان
+                انگلیسی رهبری کنند و پیش ببرند. زبان انگلیسی به کار برده شده در این کتاب متوسط Intermediate است و این به
+                رنج خوانندگانش می‌افزاید. خوانش این کتاب را به همه‌ی کارمندان شرکت‌های بزرگ پیشنهاد می‌کنیم.
+
+                کتاب مذاکرات به زبان انگلیسی در دسته‌ی کتاب‌های آموزش زبان قرار دارد.
+                کتاب مذاکرات به زبان انگلیسی مناسب برای گروه سنی بزرگسال است.
+                تعداد صفحات نسخه‌ی چاپی کتاب 121 صفحه است که با مطالعه‌ی روزانه 20 دقیقه می‌توانید این کتاب را در 6 روز
+                بخوانید.
+                کتاب مذاکرات به زبان انگلیسی حجم اندکی دارد و برای افرادی که وقت کافی برای خواندن کتاب‌های طولانی را
+                ندارند و قصد دارند کتابی مختصر با موضوع آموزش زبان را بخوانند مفید خواهد بود.
+                ‌در بخشی از کتاب مذاکرات به زبان انگلیسی می‌خوانیم
+                این گمان واهی را که خوش و بش کردن سبب اتلاف وقت است از خود دور کنید. برعکس؛ در نتیجه‌ی چنین گپ‌های
+                خوشایندی، شما مهره‌های کلیدی را بهتر خواهید شناخت. این کار سر و کله زدن با طرف مقابل‌تان را در طول
+                مذاکرات آسان می‌کند. پس از چاق سلامتی کردن واهمه نداشته باشید.
+
+                آن‌چه در بالا خواندید بررسی و نقد کتاب مذاکرات به زبان انگلیسی اثر لارس ام. بلودورن بود.خرید و دانلود
+                این اثر در همین صفحه امکان‌پذیر است. برای مطالعه‌ی دیگر کتاب‌ها در زمینه‌ی آموزش زبان می‌توانید به قسمت
+                دسته‌بندی کتاب‌ها مراجعه و کتاب‌های این موضوع را یکجا مشاهده کنید.
+            </p>
+        </div>
+        <div class="mb-sm-4">
+            <h2 class="text-center mb-sm-4">
+                تصاویر کتاب </h2>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <figure class="figure">
+                        <img src="./img/013833.png" alt="" class="img-fluid figure-img">
+
+
+                    </figure>
+
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <figure class="figure">
+                        <img src="./img/013833.png" alt="" class="img-fluid figure-img">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-sm-4 na-bo">
+            <h2 class="text-center mb-sm-4">بیشنهادها</h2>
+            <div class="row">
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/2223.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/111.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/222.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/333.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/444.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/555.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/666.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/777.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/888.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/999.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/1112.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 mb-3">
+                    <img src="./img/new-2/3334.jpg" alt="" class="img-fluid img-sl" type="button"
+                        onclick="location.href='./book1.html'">
+                    <div class="product__wrapper">
+                        <div class="product__offer">
+                            <span class="product__offer-percent">14%</span>
+                            <span class="product__offer-price">320,000</span>
+                        </div>
+                        <div class="product__price">
+                            <span class="product__price-number">275,000</span>
+                            <span class="product__price-unit">تومان</span>
+                        </div>
+                        <div class="product__rating">
+                            <span class="product__rating-number">4.5</span>
+                            <svg class="product__star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">نام</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            <input type="text" id="name" class="form-control" name="name" placeholder="name">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">ادرس پستی</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            <input type="email" id="email" class="form-control" name="email"
+                                placeholder="example@email.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="mb-3">
+                        <label for="telephone" class="form-label">شماره تماس</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                            <input type="tel" id="telephone" class="form-control" name="telephone"
+                                placeholder="012345678">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="mb-3">
+                        <label for="department" class="form-label">زمینه کاری:</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-home"></i></span>
+                            <select name="department" id="department" class="form-select">
+                                <option value="">- انتخاب کنید -</option>
+                                <option value="business">کار</option>
+                                <option value="support">پشتیبانی</option>
+                            </select>
+                        </div>
+                        <small class="form-text">Please select the recipient of your message.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">پیام خود را در این قسمت قرار دهید:</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                    <textarea name="message" id="message" cols="30" rows="5" class="form-control"
+                        placeholder="یاداشت کنید..."></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn bt-sl">ارسال</button>
+        </form>
+
+
+    </div>
+    <!-- end body -->
+
+    <!-- start footer -->
+    <footer class="">
+        <div class="container py-3 py-sm-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>لینک صفحات سایت</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">خانه</a></li>
+                        <li><a href="contact.html">ارتباط با ما</a></li>
+                        <li><a href="services.html">خدمات</a></li>
+                        <li><a href="./Store.html">فروشگاه</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>کتاب‌های پیشنهادی</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="./Store.html">اثر مرکب</a></li>
+                        <li><a href="./Store.html">ملت عشق</a></li>
+                        <li><a href="./Store.html">کتاب شدن</a></li>
+                        <li><a href="./Store.html">اسکاول شین</a></li>
+                        <li><a href="./Store.html">مردی به نام اوه</a></li>
+                        <li><a href="./Store.html">نیمه تاریک وجود‌</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6> مارا دنبال کنید</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fab fa-fw fa-facebook"></i>facebool</a></li>
+                        <li><a href="#"><i class="fab fa-fw fa-instagram"></i>instagram</a></li>
+                        <li><a href="#"><i class="fab fa-fw fa-twitter"></i>twitter</a></li>
+                        <li><a href="#"><i class="fab fa-fw fa-youtube"></i>youtube</a></li>
+                        <li><a href="#"><i class="fab fa-fw fa-linkedin"></i>linkedin</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6> آدرس ما </h6>
+                    <address>
+                        <strong>نام شرکت</strong><br>
+                        نام خیابان<br>
+                        شماره های تماس<br>
+                        <i class="fas fa-fw fa-phone"></i><a href="tel:+123456789">01234567889</a><br>
+                        <i class="fas fa-fw fa-envelope"></i><a href="mailto:info@domin.com">exapmle@gmail.com</a><br>
+                    </address>
+                </div>
+            </div>
+
+            <ul class="list-inlne mt-2 mb-0 text-center">
+                <i class="list-inline-item">&copy; نام شرکت 2022</i>
+                <i class="list-inline-item"> تمام حقوق این سایت محفوظ است</i>
+
+
+            </ul>
+        </div>
+
+    </footer>
+    <!-- end footer -->
+
+
+    <script src="./js/app.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
